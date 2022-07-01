@@ -8,8 +8,8 @@ var Logs *logrus.Logger
 
 func init() {
 	Logs = NewLogger(&Config{
-		Debug:        true,
-		Name:         "./log/run.log",
+		Debug: true,
+		//Name:         "./log/run.log",
 		Level:        5,
 		Caller:       true,
 		Color:        true,
